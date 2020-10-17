@@ -29,6 +29,38 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Cucumber libraries -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.6</version>
+        </dependency>
     </dependencies>
+
 </project>
+
+
+<!--
+    <opening tag>values</closing tag>
+    <opening tag aributeName=attributeValue, >
+
+
+
+    {
+
+    }
+
+-->
