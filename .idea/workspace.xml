@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7696b9-847a-44ed-a64f-d07b4fd61eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cucumber_summer2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/BankBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/BankOfAmerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/BankOfAmerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/BankerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/BankerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/Chase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Chase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/ChaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/ChaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/DepositStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/notes/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Deposit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ChaseDeposit.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/application" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChaseTest.invalidAccountNumberTest">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Deposit amount within allowed range.">
     <configuration name="BankerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="application.BankerDemo" />
       <module name="cucumber_summer2020" />
@@ -80,33 +77,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deposit amount within allowed range." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseDeposit.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="cucumber_summer2020" />
+      <option name="NAME_FILTER" value="^Deposit amount within allowed range\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Deposit amount within allowed range\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deposit amount within allowed range." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="application.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="application" />
-      <option name="MAIN_CLASS_NAME" value="application.ChaseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChaseTest.insufficientFundsTransferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cucumber_summer2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="application" />
-      <option name="MAIN_CLASS_NAME" value="application.ChaseTest" />
-      <option name="METHOD_NAME" value="insufficientFundsTransferTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,20 +112,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChaseTest.positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber_summer2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application" />
+      <option name="MAIN_CLASS_NAME" value="application.ChaseTest" />
+      <option name="METHOD_NAME" value="positive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: CucumberDemo" />
-      <item itemvalue="JUnit.ChaseTest" />
-      <item itemvalue="JUnit.ChaseTest.insufficientFundsTransferTest" />
       <item itemvalue="Application.BankerDemo" />
       <item itemvalue="JUnit.ChaseTest.invalidAccountNumberTest" />
+      <item itemvalue="JUnit.ChaseTest.positive" />
+      <item itemvalue="Cucumber Java.Scenario: Deposit amount within allowed range." />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Deposit amount within allowed range." />
+        <item itemvalue="JUnit.ChaseTest.positive" />
         <item itemvalue="JUnit.ChaseTest.invalidAccountNumberTest" />
         <item itemvalue="Application.BankerDemo" />
         <item itemvalue="Cucumber Java.Feature: CucumberDemo" />
-        <item itemvalue="JUnit.ChaseTest.insufficientFundsTransferTest" />
-        <item itemvalue="JUnit.ChaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,25 +179,29 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602907464502" />
-    <state width="1750" height="272" key="GridCell.Tab.0.bottom" timestamp="1602909068297">
+    <state width="1750" height="272" key="GridCell.Tab.0.bottom" timestamp="1603237091586">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="272" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602909068297" />
+    <state width="1750" height="272" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391623" />
+    <state width="1750" height="272" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237091586" />
     <state width="1750" height="430" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578803" />
-    <state width="1750" height="272" key="GridCell.Tab.0.center" timestamp="1602909068295">
+    <state width="1750" height="272" key="GridCell.Tab.0.center" timestamp="1603237091584">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="272" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602909068295" />
+    <state width="1750" height="272" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391621" />
+    <state width="1750" height="272" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237091584" />
     <state width="1750" height="430" key="GridCell.Tab.0.center/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578801" />
-    <state width="1750" height="272" key="GridCell.Tab.0.left" timestamp="1602909068294">
+    <state width="1750" height="272" key="GridCell.Tab.0.left" timestamp="1603237091583">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="272" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602909068294" />
+    <state width="1750" height="272" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391620" />
+    <state width="1750" height="272" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237091583" />
     <state width="1750" height="430" key="GridCell.Tab.0.left/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578800" />
-    <state width="1750" height="272" key="GridCell.Tab.0.right" timestamp="1602909068296">
+    <state width="1750" height="272" key="GridCell.Tab.0.right" timestamp="1603237091585">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="272" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602909068296" />
+    <state width="1750" height="272" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391622" />
+    <state width="1750" height="272" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237091585" />
     <state width="1750" height="430" key="GridCell.Tab.0.right/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578802" />
     <state width="1750" height="430" key="GridCell.Tab.1.bottom" timestamp="1602908578808">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -223,6 +228,10 @@
     </state>
     <state x="384" y="141" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602907990533" />
     <state x="384" y="141" key="SettingsEditor/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908090929" />
+    <state x="600" y="280" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603237089710">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="600" y="280" key="git4idea.branch.GitSmartOperationDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237089710" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1602899812852">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -232,18 +241,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/application/BankBase.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/application/BankOfAmerica.java</url>
-          <line>8</line>
+          <line>10</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/application/Chase.java</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

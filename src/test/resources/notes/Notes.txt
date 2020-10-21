@@ -1,0 +1,17 @@
+
+
+What is feature file?
+Feature file is a cucumber file. BDD(Behavior driven development) -> we write extensive scenarios for testing the behavior of
+a feature. Feature is functionality.
+
+Scenarios are written in Gherkin language which is Pure English wordings. How is it helpful?
+Anyone can understand it, BA, PO, Devs - can review and approve the scenarios.
+We are planning to build the application according to the written sceanarios. Does it look good?
+
+
+new hired team members -> Easy to get up to speed with the application flow. Functionality flow.
+
+
+Scenarios should be implemented with step definitions(glue code).
+If a step doesnt have an implementation we can run the scenario and cucumber plugin of intelliJ will
+generate missing steps with snippets.
