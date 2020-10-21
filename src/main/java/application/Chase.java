@@ -1,7 +1,12 @@
 package application;
 
-public class Chase implements Bank {
+public class Chase extends BankBase {
     private double balance = 0;
+
+    public Chase(long accountNumber, long routingNumber) throws Exception {
+        super(accountNumber,routingNumber);
+        addToAllBankRecords(this);
+    }
 
     public double getBalance() {
         return balance;

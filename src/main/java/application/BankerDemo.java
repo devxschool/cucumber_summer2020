@@ -2,12 +2,12 @@ package application;
 
 public class BankerDemo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-        Chase alexChaseAccount = new Chase();
+        Chase alexChaseAccount = new Chase(123456789101l,123456789);
         alexChaseAccount.deposit(1000);
 
-        Chase belaChaseAccount = new Chase();
+        Chase belaChaseAccount = new Chase(123456789101l,123456789);
         belaChaseAccount.deposit(2000);
 
 
@@ -16,7 +16,7 @@ public class BankerDemo {
         System.out.println(belaChaseAccount.getBalance());
 
 
-        BankOfAmerica johnBankOfAmericaAccount = new BankOfAmerica();
+        BankOfAmerica johnBankOfAmericaAccount = new BankOfAmerica(12345l,12312424l);
         johnBankOfAmericaAccount.deposit(2000);//2200
 
         System.out.println();

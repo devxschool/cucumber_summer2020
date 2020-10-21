@@ -1,8 +1,13 @@
 package application;
 
-public class BankOfAmerica  implements  Bank {
+public class BankOfAmerica  extends BankBase {
 
     private double balance = 200;
+
+    public BankOfAmerica(long accountNumber, long routingNumber) throws Exception {
+        super(accountNumber,routingNumber);
+        addToAllBankRecords(this);
+    }
 
     public double getBalance() {
         return balance;
