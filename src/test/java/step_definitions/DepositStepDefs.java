@@ -1,20 +1,51 @@
 package step_definitions;
 
+import application.BankBase;
+import application.Chase;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import org.junit.Assert;
+
 public class DepositStepDefs {
 
+    BankBase chase;
+
+    //What is regex --> regex is a rule that the format of a String must match.
     @Given("^User account with accountNumer (\\d+) and routing number (\\d+) is opened$")
-    public void user_account_with_accountNumer_and_routing_number_is_opened(int arg1, int arg2) throws Throwable {
+    public void createAccount(long accountNum, long routingNum) throws Exception {
+        System.out.println("Hello I am an account creation step");
 
+        //checked exceptions must either be declared as throws or caught
+        chase = new Chase(accountNum,routingNum);
+
+        System.out.println("account number: " + accountNum);
+        System.out.println("routing number: " + routingNum);
     }
 
+    //make this step dynamic with double.
     @When("^User deposits \\$(\\d+)$")
-    public void user_deposits_$(int arg1) throws Throwable {
-
+    public void dep(int amount) {
+        System.out.println("Hello I am deposit step");
+        chase.deposit(amount);
+        System.out.println("Amount deposited: " + amount);
     }
 
+    //make this step dynamic with double.
     @Then("^User should have \\$(\\d+) in account$")
-    public void user_should_have_$_in_account(int arg1) throws Throwable {
+    public void check(int amount) {
+        System.out.println("Hello I am validation step");
+        double actual = chase.getBalance();
+        //hard coding the expected data
+        double expected = amount;
 
+        Assert.assertEquals("balance amount is invalid",expected,actual,0.0);
+        System.out.println("current balance: " + amount);
     }
 
+
+    @When("^User deposits \\$-(\\d+)$")
+    public void user_deposits_$(int amount)  {
+        chase.deposit(-amount);
+    }
 }

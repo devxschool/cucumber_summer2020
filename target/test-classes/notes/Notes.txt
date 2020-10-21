@@ -13,3 +13,5 @@ new hired team members -> Easy to get up to speed with the application flow. Fun
 
 
 Scenarios should be implemented with step definitions(glue code).
+If a step doesnt have an implementation we can run the scenario and cucumber plugin of intelliJ will
+generate missing steps with snippets.
