@@ -1,2 +1,3 @@
 application/ChaseTest.class
+step_definitions/DepositStepDefs.class
 step_definitions/CucumberDemoSteps.class

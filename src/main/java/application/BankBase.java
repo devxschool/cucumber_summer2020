@@ -3,7 +3,7 @@ package application;
 import java.util.HashSet;
 import java.util.Set;
 
-public abstract class BankBase implements Bank{
+public abstract class BankBase implements Bank {
 
     private long accountNumber;
     private long routingNumber;
@@ -46,4 +46,19 @@ public abstract class BankBase implements Bank{
          }
      }
 
+    public long getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(long accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public long getRoutingNumber() {
+        return routingNumber;
+    }
+
+    public void setRoutingNumber(long routingNumber) {
+        this.routingNumber = routingNumber;
+    }
 }

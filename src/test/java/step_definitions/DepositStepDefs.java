@@ -24,16 +24,16 @@ public class DepositStepDefs {
     }
 
     //make this step dynamic with double.
-    @When("^User deposits \\$(\\d+)$")
-    public void dep(int amount) {
+    @When("^User deposits \\$(\\d+.\\d+)$")
+    public void dep(double amount) {
         System.out.println("Hello I am deposit step");
         chase.deposit(amount);
         System.out.println("Amount deposited: " + amount);
     }
 
     //make this step dynamic with double.
-    @Then("^User should have \\$(\\d+) in account$")
-    public void check(int amount) {
+    @Then("^User should have \\$(\\d+.\\d+) in account$")
+    public void check(double amount) {
         System.out.println("Hello I am validation step");
         double actual = chase.getBalance();
         //hard coding the expected data
@@ -44,8 +44,16 @@ public class DepositStepDefs {
     }
 
 
-    @When("^User deposits \\$-(\\d+)$")
-    public void user_deposits_$(int amount)  {
+    @When("^User deposits \\$-(\\d+.\\d+)$")
+    public void user_deposits_$(double amount)  {
         chase.deposit(-amount);
     }
+
+
+
+    @When("^User withdraws \\$(\\d+.\\d+)$")
+    public void user_withdraws_$(double amount) {
+        chase.withDraw(amount);
+    }
+
 }
