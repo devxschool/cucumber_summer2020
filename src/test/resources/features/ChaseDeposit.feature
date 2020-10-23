@@ -8,7 +8,6 @@ Feature: Deposit some amount to the account.
   #Background runs before every scenario in the Feature file.
   #Purpose of background is to simplify scenarios by removing preconditions
   Background:
-    Given all accounts are reset
     And User account with accountNumer 234523453245 and routing number 123456789 is opened
 
 

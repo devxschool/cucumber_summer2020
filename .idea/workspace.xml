@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7696b9-847a-44ed-a64f-d07b4fd61eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/BankOfAmericaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/WithdrawSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ChaseWithDraw.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DepositBankOfAmerica.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domains/AccountDataHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domains/BalanceCheckContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domains/WithdrawDataContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/BankOfAmericaWithDrawStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/BankOfAmericaWithdraw.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/BankBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/BankBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/BankOfAmericaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/BankOfAmericaSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/DepositStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/DepositStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ChaseDeposit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ChaseDeposit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/notes/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/notes/Notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cucumber_summer2020.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.ChaseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.ChaseTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/application.ChaseTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/application.ChaseTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/ChaseDeposit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/ChaseDeposit.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/notes/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/notes/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DepositBankOfAmerica.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DepositBankOfAmerica.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DepositBankOfAmerica.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/DepositBankOfAmerica.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/BankOfAmericaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/BankOfAmericaSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/DepositStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/DepositStepDefs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +46,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/application" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -60,16 +59,72 @@
       <recent name="$PROJECT_DIR$/src/main/java/application" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Deposit within allowed limit">
-    <configuration name="Scenario: Deposit within allowed limit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: DepositBankOfAmerica">
+    <configuration name="Feature: BankOfAmericaWithdraw" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BankOfAmericaWithdraw.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="cucumber_summer2020" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: BankOfAmericaWithdraw" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: ChaseDeposit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseDeposit.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="cucumber_summer2020" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: ChaseDeposit" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: ChaseWithDraw" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseWithDraw.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="cucumber_summer2020" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: ChaseWithDraw" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: DepositBankOfAmerica" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DepositBankOfAmerica.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="cucumber_summer2020" />
-      <option name="NAME_FILTER" value="^Deposit within allowed limit$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Deposit within allowed limit$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deposit within allowed limit" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: DepositBankOfAmerica" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -81,75 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Withdraw from 0 balance" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Withdraw after opening account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseWithDraw.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/BankOfAmericaWithdraw.feature" />
       <option name="GLUE" value="step_definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="cucumber_summer2020" />
-      <option name="NAME_FILTER" value="^Withdraw from 0 balance$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw from 0 balance$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Withdraw from 0 balance" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Withdraw over the limit with initial balance" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseWithDraw.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="cucumber_summer2020" />
-      <option name="NAME_FILTER" value="^Withdraw over the limit with initial balance$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw over the limit with initial balance$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Withdraw over the limit with initial balance" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Withdraw over the limit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseWithDraw.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="cucumber_summer2020" />
-      <option name="NAME_FILTER" value="^Withdraw over the limit$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw over the limit$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Withdraw over the limit" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Withdraw with insufficient funds from initial balance" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ChaseWithDraw.feature" />
-      <option name="GLUE" value="step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="cucumber_summer2020" />
-      <option name="NAME_FILTER" value="^Withdraw with insufficient funds from initial balance$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw with insufficient funds from initial balance$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Withdraw with insufficient funds from initial balance" />
+      <option name="NAME_FILTER" value="^Withdraw after opening account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Withdraw after opening account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Withdraw after opening account" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Withdraw over the limit" />
-      <item itemvalue="Cucumber Java.Scenario: Withdraw over the limit with initial balance" />
-      <item itemvalue="Cucumber Java.Scenario: Withdraw from 0 balance" />
-      <item itemvalue="Cucumber Java.Scenario: Withdraw with insufficient funds from initial balance" />
-      <item itemvalue="Cucumber Java.Scenario: Deposit within allowed limit" />
+      <item itemvalue="Cucumber Java.Feature: DepositBankOfAmerica" />
+      <item itemvalue="Cucumber Java.Feature: ChaseDeposit" />
+      <item itemvalue="Cucumber Java.Feature: BankOfAmericaWithdraw" />
+      <item itemvalue="Cucumber Java.Scenario: Withdraw after opening account" />
+      <item itemvalue="Cucumber Java.Feature: ChaseWithDraw" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Deposit within allowed limit" />
-        <item itemvalue="Cucumber Java.Scenario: Withdraw with insufficient funds from initial balance" />
-        <item itemvalue="Cucumber Java.Scenario: Withdraw from 0 balance" />
-        <item itemvalue="Cucumber Java.Scenario: Withdraw over the limit with initial balance" />
-        <item itemvalue="Cucumber Java.Scenario: Withdraw over the limit" />
+        <item itemvalue="Cucumber Java.Feature: DepositBankOfAmerica" />
+        <item itemvalue="Cucumber Java.Feature: ChaseWithDraw" />
+        <item itemvalue="Cucumber Java.Feature: ChaseDeposit" />
+        <item itemvalue="Cucumber Java.Scenario: Withdraw after opening account" />
+        <item itemvalue="Cucumber Java.Feature: BankOfAmericaWithdraw" />
       </list>
     </recent_temporary>
   </component>
@@ -196,66 +191,74 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="208" key="#Plugins/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603242974010" />
-    <state x="384" y="141" key="#Project_Structure" timestamp="1602895454824">
+    <state x="384" y="141" key="#Project_Structure" timestamp="1603409006555">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="384" y="141" key="#Project_Structure/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602895454824" />
-    <state x="527" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603330845798">
+    <state x="384" y="141" key="#Project_Structure/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603409006555" />
+    <state x="527" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603415770216">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="527" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603330845798" />
+    <state x="527" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603415770215" />
     <state x="100" y="100" width="1592" height="920" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602892993956">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602892993956" />
-    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1603332180486">
+    <state x="565" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603413668369">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603332180486" />
-    <state width="1750" height="450" key="GridCell.Tab.0.bottom" timestamp="1603332082296">
+    <state x="565" y="369" key="#com.intellij.fileTypes.FileTypeChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603413668369" />
+    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser" timestamp="1603416427545">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="268" key="#com.intellij.ide.util.MemberChooser/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603416427545" />
+    <state x="449" y="135" key="CommitChangelistDialog2" timestamp="1603413854249">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="449" y="135" key="CommitChangelistDialog2/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603413854249" />
+    <state width="1750" height="296" key="GridCell.Tab.0.bottom" timestamp="1603417608519">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="272" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391623" />
-    <state width="1750" height="450" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603332082296" />
-    <state width="1750" height="430" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578803" />
-    <state width="1750" height="450" key="GridCell.Tab.0.center" timestamp="1603332082294">
+    <state width="1750" height="296" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603417608519" />
+    <state width="1750" height="430" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116542" />
+    <state width="1750" height="296" key="GridCell.Tab.0.center" timestamp="1603417608517">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="272" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391621" />
-    <state width="1750" height="450" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603332082294" />
-    <state width="1750" height="430" key="GridCell.Tab.0.center/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578801" />
-    <state width="1750" height="450" key="GridCell.Tab.0.left" timestamp="1603332082292">
+    <state width="1750" height="296" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603417608517" />
+    <state width="1750" height="430" key="GridCell.Tab.0.center/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116539" />
+    <state width="1750" height="296" key="GridCell.Tab.0.left" timestamp="1603417608515">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="272" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391620" />
-    <state width="1750" height="450" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603332082292" />
-    <state width="1750" height="430" key="GridCell.Tab.0.left/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578800" />
-    <state width="1750" height="450" key="GridCell.Tab.0.right" timestamp="1603332082295">
+    <state width="1750" height="296" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603417608515" />
+    <state width="1750" height="430" key="GridCell.Tab.0.left/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116538" />
+    <state width="1750" height="296" key="GridCell.Tab.0.right" timestamp="1603417608518">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="272" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1602949391622" />
-    <state width="1750" height="450" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603332082295" />
-    <state width="1750" height="430" key="GridCell.Tab.0.right/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578802" />
-    <state width="1750" height="430" key="GridCell.Tab.1.bottom" timestamp="1603329939300">
+    <state width="1750" height="296" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603417608518" />
+    <state width="1750" height="430" key="GridCell.Tab.0.right/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116541" />
+    <state width="1750" height="430" key="GridCell.Tab.1.bottom" timestamp="1603344116546">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="430" key="GridCell.Tab.1.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603329939300" />
-    <state width="1750" height="430" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578808" />
-    <state width="1750" height="430" key="GridCell.Tab.1.center" timestamp="1603329939298">
+    <state width="1750" height="430" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116546" />
+    <state width="1750" height="430" key="GridCell.Tab.1.center" timestamp="1603344116544">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="430" key="GridCell.Tab.1.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603329939298" />
-    <state width="1750" height="430" key="GridCell.Tab.1.center/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578805" />
-    <state width="1750" height="430" key="GridCell.Tab.1.left" timestamp="1603329939297">
+    <state width="1750" height="430" key="GridCell.Tab.1.center/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116544" />
+    <state width="1750" height="430" key="GridCell.Tab.1.left" timestamp="1603344116543">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="430" key="GridCell.Tab.1.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603329939297" />
-    <state width="1750" height="430" key="GridCell.Tab.1.left/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578804" />
-    <state width="1750" height="430" key="GridCell.Tab.1.right" timestamp="1603329939299">
+    <state width="1750" height="430" key="GridCell.Tab.1.left/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116543" />
+    <state width="1750" height="430" key="GridCell.Tab.1.right" timestamp="1603344116545">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="430" key="GridCell.Tab.1.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603329939299" />
-    <state width="1750" height="430" key="GridCell.Tab.1.right/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602908578806" />
+    <state width="1750" height="430" key="GridCell.Tab.1.right/1792.23.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1603344116545" />
     <state x="384" y="141" key="SettingsEditor" timestamp="1603304057455">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -265,6 +268,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="600" y="280" key="git4idea.branch.GitSmartOperationDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237089710" />
+    <state x="264" y="223" key="new project wizard" timestamp="1603343855431">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="264" y="223" key="new project wizard/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603343855431" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603242987976">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
