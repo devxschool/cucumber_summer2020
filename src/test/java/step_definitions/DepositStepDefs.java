@@ -43,17 +43,16 @@ public class DepositStepDefs {
         System.out.println("current balance: " + amount);
     }
 
-
     @When("^User deposits \\$-(\\d+.\\d+)$")
     public void user_deposits_$(double amount)  {
         chase.deposit(-amount);
     }
 
 
-
     @When("^User withdraws \\$(\\d+.\\d+)$")
     public void user_withdraws_$(double amount) {
         chase.withDraw(amount);
     }
+
 
 }
