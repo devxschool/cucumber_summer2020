@@ -19,6 +19,7 @@ Feature: Chase bank account can withdraw money up to 1000
     When User withdraws $10.00
     Then User should have $0.0 in account
 
+  @regression
   Scenario: Withdraw from 0 balance
     Given User account with accountNumer 234523453245 and routing number 123456789 is opened
     And User deposits $-1000.00

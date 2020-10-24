@@ -22,12 +22,13 @@ Feature: Bank of America deposit
       | 234523453123  | 200     |
     Then accounts have the following balances
       | accountNumber | balance |
-      | 234523453245  | 700     |
       | 234523453123  | 400     |
+      | 234523453245  | 700     |
 
 
 
     #Should pass without any change here
+  @regression
   Scenario: Multiple Account Deposit Test 2
     Given the following user account is created
       | accountNumber | routingNumber | balance |
@@ -36,8 +37,8 @@ Feature: Bank of America deposit
       | 884523453123  | 882456789     | 200     |
     When the following deposits are made
       | accountNumber | deposit |
-      | 114523453123  | 200     |
       | 234523453245  | 500     |
+      | 114523453123  | 200     |
       | 884523453123  | 800     |
     Then accounts have the following balances
       | accountNumber | balance |

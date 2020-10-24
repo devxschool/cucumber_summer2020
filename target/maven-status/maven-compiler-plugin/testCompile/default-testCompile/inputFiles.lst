@@ -1,3 +1,13 @@
 /Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/DepositStepDefs.java
 /Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/application/ChaseTest.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/ScenarioOutlineSteps.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/domains/BalanceCheckContainer.java
 /Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/CucumberDemoSteps.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/domains/WithdrawDataContainer.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/BankOfAmericaSteps.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/BankOfAmericaWithDrawStep.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/domains/AccountDataHolder.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/runners/SmokeRunner.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/WithdrawSteps.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/step_definitions/Hooks.java
+/Users/askarmusakunov/Documents/DevCourse/cucumber_summer2020/src/test/java/runners/RegressionRunner.java
