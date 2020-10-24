@@ -18,9 +18,11 @@ import cucumber.api.java.Before;
  */
 public class Hooks {
 
+    private static boolean isExecuted = false;
+
     //Runs before every single scenario in every feature file
     //Runs before background
-    @Before
+   // @Before
     public void beforeHook(){
         System.out.println("Running before hook");
         BankBase.allBankRecords.clear();
@@ -32,5 +34,30 @@ public class Hooks {
     @After
     public void afterHook(){
         System.out.println("Running after");
+    }
+
+
+    //will run only before scenarios that have @smoke tag
+    @Before("@smoke")
+    public void beforeSmoke() {
+        System.out.println("Before Smoke");
+    }
+
+    @After("@regression")
+    public void afterRegression(){
+
+        System.out.println("After Regression");
+    }
+
+
+    //Junit and testNG have beforeClass or beforeSuite.
+    //cucumber doesnt have that option.
+    //so we need to hack that gap
+    @Before
+    public void onceBeforeAllTests(){
+        if (!isExecuted) {
+            System.out.println("Setting up environment before running regression");
+            isExecuted = true;
+        }
     }
 }

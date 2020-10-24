@@ -1,3 +1,4 @@
+@regression
 Feature: Deposit some amount to the account.
 
   # Background can be put before the first scenario within feature file.
@@ -50,7 +51,7 @@ Feature: Deposit some amount to the account.
     When User deposits $10000.00
     Then User should have $10000.00 in account
 
-
+  @ignore
   Scenario: Deposit multiple times within the range
     When User deposits $6000.33
     And User deposits $1000.44

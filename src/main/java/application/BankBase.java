@@ -8,6 +8,7 @@ public abstract class BankBase implements Bank {
     private long accountNumber;
     private long routingNumber;
 
+    //Threads in java
     public static Set<BankBase> allBankRecords = new HashSet<>();
 
 
@@ -31,19 +32,19 @@ public abstract class BankBase implements Bank {
      * @throws Exception
      */
      public static void addToAllBankRecords(BankBase bank) throws Exception {
-         if (!allBankRecords.isEmpty()) {
-             for (BankBase b : allBankRecords) {
-                 if (b.routingNumber == bank.routingNumber) {
-                     throw new Exception("Routing number " + bank.routingNumber + " already exists");
-                 } else if (b.accountNumber == bank.accountNumber) {
-                     throw new Exception("Account number " + bank.accountNumber + " already exists");
-                 } else {
-                     allBankRecords.add(bank);
-                 }
-             }
-         } else {
-             allBankRecords.add(bank);
-         }
+//         if (!allBankRecords.isEmpty()) {
+//             for (BankBase b : allBankRecords) {
+//                 if (b.routingNumber == bank.routingNumber) {
+//                     throw new Exception("Routing number " + bank.routingNumber + " already exists");
+//                 } else if (b.accountNumber == bank.accountNumber) {
+//                     throw new Exception("Account number " + bank.accountNumber + " already exists");
+//                 } else {
+//                     allBankRecords.add(bank);
+//                 }
+//             }
+//         } else {
+//             allBankRecords.add(bank);
+//         }
      }
 
     public long getAccountNumber() {
