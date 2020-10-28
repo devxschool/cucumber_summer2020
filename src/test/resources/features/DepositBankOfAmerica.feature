@@ -11,6 +11,7 @@ Feature: Bank of America deposit
 
    #Validate that multiple account can be created at the same time.
    #Validate that we can deposit amount to multiple accounts at the same time.
+  @smoke
   Scenario: Multiple Account Deposit Test
     Given the following user account is created
       | accountNumber | routingNumber | balance |
