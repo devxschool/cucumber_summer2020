@@ -1,1 +1,13 @@
-runners/RegressionRunnerTest.class
+step_definitions/BankOfAmericaSteps.class
+runners/RegressionRunner.class
+step_definitions/DepositStepDefs.class
+domains/AccountDataHolder.class
+domains/BalanceCheckContainer.class
+step_definitions/Hooks.class
+application/ChaseTest.class
+runners/SmokeRunner.class
+step_definitions/CucumberDemoSteps.class
+step_definitions/BankOfAmericaWithDrawStep.class
+step_definitions/ScenarioOutlineSteps.class
+domains/WithdrawDataContainer.class
+step_definitions/WithdrawSteps.class

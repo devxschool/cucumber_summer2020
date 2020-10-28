@@ -1,5 +1,6 @@
 package application;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ChaseTest {
@@ -10,4 +11,8 @@ public class ChaseTest {
   }
 
 
+  @Test
+    public void failTest() {
+      Assert.fail();
+  }
 }
