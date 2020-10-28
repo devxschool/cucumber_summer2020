@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7696b9-847a-44ed-a64f-d07b4fd61eb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/application/ChaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/ChaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/BankOfAmericaWithDrawStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/BankOfAmericaWithDrawStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DepositBankOfAmerica.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DepositBankOfAmerica.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/BankBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/BankBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/BankOfAmerica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/BankOfAmerica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/BankerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/BankerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application/Chase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application/Chase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.ChaseTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.RegressionRunnerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/application.ChaseTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.RegressionRunnerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/cucumber_summer2020.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application/ChaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application/ChaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domains/AccountDataHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domains/AccountDataHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domains/BalanceCheckContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domains/BalanceCheckContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domains/WithdrawDataContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domains/WithdrawDataContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/DepositBankOfAmerica.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/DepositBankOfAmerica.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/RegressionRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/RegressionRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/SmokeRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/SmokeRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/BankOfAmericaSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/BankOfAmericaSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/BankOfAmericaWithDrawStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/BankOfAmericaWithDrawStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/CucumberDemoSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/CucumberDemoSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/DepositStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/DepositStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/ScenarioOutlineSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/ScenarioOutlineSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/WithdrawSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/WithdrawSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/java/application" />
     </key>
   </component>
@@ -196,11 +166,11 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="208" key="#Plugins/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603242974010" />
-    <state x="2203" y="136" key="#Project_Structure" timestamp="1603843095747">
+    <state x="2203" y="136" key="#Project_Structure" timestamp="1603848196109">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="384" y="141" key="#Project_Structure/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603409006555" />
-    <state x="2203" y="136" key="#Project_Structure/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1603843095747" />
+    <state x="2203" y="136" key="#Project_Structure/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1603848196109" />
     <state x="527" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603415770216">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -290,10 +260,11 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="600" y="280" key="git4idea.branch.GitSmartOperationDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603237089710" />
-    <state x="264" y="223" key="new project wizard" timestamp="1603343855431">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="2075" y="215" key="new project wizard" timestamp="1603857801660">
+      <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="264" y="223" key="new project wizard/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603343855431" />
+    <state x="2075" y="215" key="new project wizard/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1603857801659" />
     <state x="2393" y="242" width="718" height="652" key="search.everywhere.popup" timestamp="1603843379148">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>

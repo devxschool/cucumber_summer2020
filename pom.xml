@@ -21,7 +21,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -121,8 +120,6 @@
                 </plugins>
             </build>
         </profile>
-
-
 
         <profile>
             <id>smoke</id>
